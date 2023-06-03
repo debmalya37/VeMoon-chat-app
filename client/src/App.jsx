@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { StreamChat } from 'stream-chat';
+import { Chat } from 'stream-chat-react';
+import Cookies from 'universal-cookie';
 
+
+const apiKey = '9ehvnud3ggrh';
 const App = () => {
   return (
-    <div>
-      <h1>VeMoon</h1>
+    <div className="app__wrapper">
+     
     </div>
   )
 }
